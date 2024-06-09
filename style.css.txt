@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    colour: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #e8491d;
+    colour: #fff;
+    padding: 2rem 0;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.service {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    background: #333;
+    colour: #fff;
+    text-align: centre;
+    padding: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form button {
+    background: #333;
+    colour: #fff;
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}

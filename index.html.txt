@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innomate Learning Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Innomate Learning Solutions</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Innomate Learning Solutions</h2>
+            <p>Providing top-notch training and job support services worldwide.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our mission is to empower individuals through quality training and job support.</p>
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Training</h3>
+                <p>We offer comprehensive training programs in various domains.</p>
+            </div>
+            <div class="service">
+                <h3>Job Support</h3>
+                <p>Get the job support you need to excel in your career.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <p>Read what our clients have to say about us.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Innomate Learning Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
